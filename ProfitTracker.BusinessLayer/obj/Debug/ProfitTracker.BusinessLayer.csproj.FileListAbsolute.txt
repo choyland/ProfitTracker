@@ -1,0 +1,5 @@
+E:\Projects\ProftTracker\ProfitTracker.BusinessLayer\bin\Debug\ProfitTracker.BusinessLayer.dll
+E:\Projects\ProftTracker\ProfitTracker.BusinessLayer\bin\Debug\ProfitTracker.BusinessLayer.pdb
+E:\Projects\ProftTracker\ProfitTracker.BusinessLayer\obj\Debug\ProfitTracker.BusinessLayer.csprojResolveAssemblyReference.cache
+E:\Projects\ProftTracker\ProfitTracker.BusinessLayer\obj\Debug\ProfitTracker.BusinessLayer.dll
+E:\Projects\ProftTracker\ProfitTracker.BusinessLayer\obj\Debug\ProfitTracker.BusinessLayer.pdb
