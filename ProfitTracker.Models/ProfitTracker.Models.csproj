@@ -66,11 +66,25 @@
     <Compile Include="ApplicationDbContext.cs" />
     <Compile Include="Entities\ApplicationUser.cs" />
     <Compile Include="Entities\BackBet.cs" />
+    <Compile Include="Entities\Bet.cs" />
     <Compile Include="Entities\BetResult.cs" />
     <Compile Include="Entities\Bookmaker.cs" />
     <Compile Include="Entities\Exchange.cs" />
     <Compile Include="Entities\LayBet.cs" />
+    <Compile Include="Extensions\BackBetEx.cs" />
+    <Compile Include="Extensions\BetEx.cs" />
+    <Compile Include="Extensions\BetResultEx.cs" />
+    <Compile Include="Extensions\BookmakerEx.cs" />
+    <Compile Include="Extensions\ExchangeEx.cs" />
+    <Compile Include="Extensions\LayBetEx.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\ApplicationUserViewModel.cs" />
+    <Compile Include="ViewModels\BackBetViewModel.cs" />
+    <Compile Include="ViewModels\BetResultViewModel.cs" />
+    <Compile Include="ViewModels\BetViewModel.cs" />
+    <Compile Include="ViewModels\BookmakerViewModel.cs" />
+    <Compile Include="ViewModels\ExchangeViewModel.cs" />
+    <Compile Include="ViewModels\LayBetViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -82,6 +96,7 @@
       <Name>ProfitTracker.BusinessLayer</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

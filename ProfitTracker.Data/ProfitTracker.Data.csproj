@@ -63,9 +63,9 @@
     <Compile Include="Migrations\201702181822409_Initial.Designer.cs">
       <DependentUpon>201702181822409_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201702191140428_ModelsAdded.cs" />
-    <Compile Include="Migrations\201702191140428_ModelsAdded.Designer.cs">
-      <DependentUpon>201702191140428_ModelsAdded.cs</DependentUpon>
+    <Compile Include="Migrations\201702191253132_ModelsAdded.cs" />
+    <Compile Include="Migrations\201702191253132_ModelsAdded.Designer.cs">
+      <DependentUpon>201702191253132_ModelsAdded.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,8 +78,8 @@
     <EmbeddedResource Include="Migrations\201702181822409_Initial.resx">
       <DependentUpon>201702181822409_Initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201702191140428_ModelsAdded.resx">
-      <DependentUpon>201702191140428_ModelsAdded.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201702191253132_ModelsAdded.resx">
+      <DependentUpon>201702191253132_ModelsAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
