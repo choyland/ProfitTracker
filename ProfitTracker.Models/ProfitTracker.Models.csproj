@@ -70,6 +70,7 @@
     <Compile Include="Entities\BetResult.cs" />
     <Compile Include="Entities\Bookmaker.cs" />
     <Compile Include="Entities\Exchange.cs" />
+    <Compile Include="Entities\Interfaces\IEntity.cs" />
     <Compile Include="Entities\LayBet.cs" />
     <Compile Include="Extensions\BackBetEx.cs" />
     <Compile Include="Extensions\BetEx.cs" />

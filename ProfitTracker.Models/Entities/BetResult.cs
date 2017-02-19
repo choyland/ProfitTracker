@@ -1,13 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using ProfitTracker.BusinessLayer.enums;
+using ProfitTracker.Models.Entities.Interfaces;
 
 namespace ProfitTracker.Models.Entities
 {
-    public class BetResult
+    public class BetResult : IEntity
     {
-        [Key]
-        public int Id { get; set; }
         public double Winnings { get; set; }
         public BetOutcome Outcome { get; set; }
+        public int Id { get; set; }
     }
 }

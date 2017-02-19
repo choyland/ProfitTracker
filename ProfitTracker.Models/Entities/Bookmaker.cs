@@ -4,13 +4,12 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProfitTracker.Models.Entities.Interfaces;
 
 namespace ProfitTracker.Models.Entities
 {
-    public class Bookmaker
+    public class Bookmaker : IEntity
     {
-
-        [Key]
         public int Id { get; set; }
         public string Name { get; set; }
     }

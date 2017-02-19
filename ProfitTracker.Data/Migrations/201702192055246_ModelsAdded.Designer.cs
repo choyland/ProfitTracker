@@ -13,7 +13,7 @@ namespace ProfitTracker.Data.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201702191253132_ModelsAdded"; }
+            get { return "201702192055246_ModelsAdded"; }
         }
         
         string IMigrationMetadata.Source

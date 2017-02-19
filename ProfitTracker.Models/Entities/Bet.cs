@@ -1,13 +1,12 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using ProfitTracker.BusinessLayer.enums;
+using ProfitTracker.Models.Entities.Interfaces;
 
 namespace ProfitTracker.Models.Entities
 {
-    public class Bet
+    public class Bet : IEntity
     {
-        [Key]
-        public int Id { get; set; }
         public ApplicationUser ApplicationUser { get; set; }
         public int ApplicationUserId { get; set; }
         public BetType BetType { get; set; }
@@ -21,5 +20,6 @@ namespace ProfitTracker.Models.Entities
         public int BackBetId { get; set; }
         public LayBet LayBet { get; set; }
         public int? LayBetId { get; set; }
+        public int Id { get; set; }
     }
 }
