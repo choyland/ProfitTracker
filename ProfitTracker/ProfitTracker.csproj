@@ -294,8 +294,8 @@
     <Content Include="Scripts\jquery-3.1.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ProfitTracker.Models\ProfitTracker.Models.csproj">
-      <Project>{6b3e20b6-cc24-4118-9a82-475d46b368b5}</Project>
+    <ProjectReference Include="..\ProfitTracker.Models\ProfitTracker.Models.csproj">
+      <Project>{6B3E20B6-CC24-4118-9A82-475D46B368B5}</Project>
       <Name>ProfitTracker.Models</Name>
     </ProjectReference>
   </ItemGroup>

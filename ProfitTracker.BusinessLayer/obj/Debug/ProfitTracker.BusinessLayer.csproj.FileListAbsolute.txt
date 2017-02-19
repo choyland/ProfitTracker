@@ -3,3 +3,10 @@ E:\Projects\ProftTracker\ProfitTracker.BusinessLayer\bin\Debug\ProfitTracker.Bus
 E:\Projects\ProftTracker\ProfitTracker.BusinessLayer\obj\Debug\ProfitTracker.BusinessLayer.csprojResolveAssemblyReference.cache
 E:\Projects\ProftTracker\ProfitTracker.BusinessLayer\obj\Debug\ProfitTracker.BusinessLayer.dll
 E:\Projects\ProftTracker\ProfitTracker.BusinessLayer\obj\Debug\ProfitTracker.BusinessLayer.pdb
+E:\Projects\ProfitTracker\ProfitTracker.BusinessLayer\bin\Debug\ProfitTracker.BusinessLayer.dll
+E:\Projects\ProfitTracker\ProfitTracker.BusinessLayer\bin\Debug\ProfitTracker.BusinessLayer.pdb
+E:\Projects\ProfitTracker\ProfitTracker.BusinessLayer\bin\Debug\nunit.framework.dll
+E:\Projects\ProfitTracker\ProfitTracker.BusinessLayer\bin\Debug\nunit.framework.xml
+E:\Projects\ProfitTracker\ProfitTracker.BusinessLayer\obj\Debug\ProfitTracker.BusinessLayer.dll
+E:\Projects\ProfitTracker\ProfitTracker.BusinessLayer\obj\Debug\ProfitTracker.BusinessLayer.pdb
+E:\Projects\ProfitTracker\ProfitTracker.BusinessLayer\obj\Debug\ProfitTracker.BusinessLayer.csprojResolveAssemblyReference.cache
