@@ -1,5 +1,5 @@
 ﻿using System;
-using ProfitTracker.BusinessLayer.enums;
+using ProfitTracker.Models.enums;
 
 namespace ProfitTracker.Models.ViewModels
 {

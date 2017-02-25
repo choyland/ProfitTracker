@@ -1,8 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using ProfitTracker.BusinessLayer.enums;
+using ProfitTracker.Models.enums;
 using ProfitTracker.Models.Entities.Interfaces;
-
 namespace ProfitTracker.Models.Entities
 {
     public class Bet : IEntity

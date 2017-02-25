@@ -14,11 +14,3 @@ E:\Projects\ProfitTracker.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 E:\Projects\ProfitTracker.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 E:\Projects\ProfitTracker.Models\bin\Debug\nunit.framework.dll
 E:\Projects\ProfitTracker.Models\bin\Debug\nunit.framework.xml
-E:\Projects\ProfitTracker\ProfitTracker.Models\bin\Debug\ProfitTracker.Models.dll.config
-E:\Projects\ProfitTracker\ProfitTracker.Models\bin\Debug\ProfitTracker.Models.dll
-E:\Projects\ProfitTracker\ProfitTracker.Models\bin\Debug\ProfitTracker.Models.pdb
-E:\Projects\ProfitTracker\ProfitTracker.Models\obj\Debug\ProfitTracker.Models.csprojResolveAssemblyReference.cache
-E:\Projects\ProfitTracker\ProfitTracker.Models\obj\Debug\ProfitTracker.Models.dll
-E:\Projects\ProfitTracker\ProfitTracker.Models\obj\Debug\ProfitTracker.Models.pdb
-E:\Projects\ProfitTracker\ProfitTracker.Models\bin\Debug\ProfitTracker.BusinessLayer.dll
-E:\Projects\ProfitTracker\ProfitTracker.Models\bin\Debug\ProfitTracker.BusinessLayer.pdb

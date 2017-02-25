@@ -51,6 +51,14 @@
       <HintPath>..\ProftTracker\packages\NUnit.3.6.0\lib\net45\nunit.framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="StyleCop, Version=4.7.1000.0, Culture=neutral, PublicKeyToken=f904653c63bc2738, processorArchitecture=MSIL">
+      <HintPath>..\packages\StyleCop.4.7.55\lib\net35\StyleCop.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StyleCop.CSharp, Version=4.7.1000.0, Culture=neutral, PublicKeyToken=f904653c63bc2738, processorArchitecture=MSIL">
+      <HintPath>..\packages\StyleCop.4.7.55\lib\net35\StyleCop.CSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -72,6 +80,9 @@
     <Compile Include="Entities\Exchange.cs" />
     <Compile Include="Entities\Interfaces\IEntity.cs" />
     <Compile Include="Entities\LayBet.cs" />
+    <Compile Include="enums\BetOutcome.cs" />
+    <Compile Include="enums\BetType.cs" />
+    <Compile Include="enums\Sport.cs" />
     <Compile Include="Extensions\BackBetEx.cs" />
     <Compile Include="Extensions\BetEx.cs" />
     <Compile Include="Extensions\BetResultEx.cs" />
@@ -90,12 +101,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ProfitTracker.BusinessLayer\ProfitTracker.BusinessLayer.csproj">
-      <Project>{E246A85C-E15C-46EC-A1BE-6C069224E1FA}</Project>
-      <Name>ProfitTracker.BusinessLayer</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -34,6 +34,14 @@
       <HintPath>..\packages\NUnit.3.6.0\lib\net45\nunit.framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="StyleCop, Version=4.7.1000.0, Culture=neutral, PublicKeyToken=f904653c63bc2738, processorArchitecture=MSIL">
+      <HintPath>..\packages\StyleCop.4.7.55\lib\net35\StyleCop.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StyleCop.CSharp, Version=4.7.1000.0, Culture=neutral, PublicKeyToken=f904653c63bc2738, processorArchitecture=MSIL">
+      <HintPath>..\packages\StyleCop.4.7.55\lib\net35\StyleCop.CSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,13 +53,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="enums\BetOutcome.cs" />
-    <Compile Include="enums\BetType.cs" />
-    <Compile Include="enums\Sport.cs" />
+    <Compile Include="Commands\BetCommands.cs" />
+    <Compile Include="Commands\Interfaces\IBetCommands.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProfitTracker.Data\ProfitTracker.Data.csproj">
+      <Project>{C7901742-0084-4D0E-A380-725840204992}</Project>
+      <Name>ProfitTracker.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProfitTracker.Models\ProfitTracker.Models.csproj">
+      <Project>{6b3e20b6-cc24-4118-9a82-475d46b368b5}</Project>
+      <Name>ProfitTracker.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
