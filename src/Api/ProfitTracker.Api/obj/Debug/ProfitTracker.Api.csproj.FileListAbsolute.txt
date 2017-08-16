@@ -1,0 +1,1 @@
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Api\obj\Debug\ProfitTracker.Api.csprojResolveAssemblyReference.cache

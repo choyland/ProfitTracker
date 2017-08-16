@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using ProfitTracker.Data.Interfaces;
-using ProfitTracker.Data.Repository;
 using ProfitTracker.Model.Entities;
 using ProfitTracker.Models.Entities.Interfaces;
 using ProfitTracker.Model;
@@ -21,41 +18,113 @@ namespace ProfitTracker.Data.Repository
             _context = context;
         }
 
-        public async Task<IEntity> GetById(int id)
+        public async Task<Bet> GetById(int id)
         {
-            var bet = _context.Bets.Where(b => b.Id == id);
+            var bet = await _context.Bets.FindAsync(id);
+
+            return bet;
         }
 
-        public async Task<bool> Exists(IEntity entity)
+        public async Task<bool> Exists(int betId)
         {
-            var bet = await _context.Bets.FindAsync(entity);
+            var bet = await _context.Bets.FindAsync(betId);
 
             return bet != null;
         }
 
-        public RepositoryActionResult<IEntity> Insert(IEntity entity)
+        public async Task<RepositoryActionResult<Bet>> Insert(Bet entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _context.Bets.Add(entity);
+                var result = await _context.SaveChangesAsync();
+                if (result > 0)
+                {
+                    return new RepositoryActionResult<Bet>(entity, RepositoryActionStatus.Created);
+                }
+                else
+                {
+                    return new RepositoryActionResult<Bet>(entity, RepositoryActionStatus.NothingModified, null);
+                }
+            }
+            catch (Exception ex)
+            {
+                return new RepositoryActionResult<Bet>(null, RepositoryActionStatus.Error, ex);
+            }
         }
 
-        public RepositoryActionResult<IEntity> Update(IEntity entity)
+        public async Task<RepositoryActionResult<Bet>> Update(Bet entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var existingBet = await _context.Bets.FirstOrDefaultAsync(b => b.Id == entity.Id);
+
+                if (existingBet == null)
+                {
+                    return new RepositoryActionResult<Bet>(entity, RepositoryActionStatus.NotFound);
+                }
+
+                // change the original entity status to detached; otherwise, we get an error on attach
+                // as the entity is already in the dbSet
+
+                // set original entity state to detached
+                _context.Entry(existingBet).State = EntityState.Detached;
+
+                // attach & save
+                _context.Bets.Attach(entity);
+
+                // set the updated entity state to modified, so it gets updated.
+                _context.Entry(entity).State = EntityState.Modified;
+                
+                var result = await _context.SaveChangesAsync();
+
+                if (result > 0)
+                {
+                    return new RepositoryActionResult<Bet>(entity, RepositoryActionStatus.Updated);
+                }
+                else
+                {
+                    return new RepositoryActionResult<Bet>(entity, RepositoryActionStatus.NothingModified, null);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return new RepositoryActionResult<Bet>(null, RepositoryActionStatus.Error, ex);
+            }
         }
 
-        public RepositoryActionResult<IEntity> Delete(IEntity entity)
+        public async Task<RepositoryActionResult<Bet>> Delete(int betId)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var bet = await _context.Bets.FindAsync(betId);
+
+                if (bet != null)
+                {
+                    _context.Bets.Remove(bet);
+                    await _context.SaveChangesAsync();
+
+                    return new RepositoryActionResult<Bet>(null, RepositoryActionStatus.Deleted);
+                }
+
+                return new RepositoryActionResult<Bet>(null, RepositoryActionStatus.NotFound);
+            }
+            catch (Exception ex)
+            {
+                return new RepositoryActionResult<Bet>(null, RepositoryActionStatus.Error, ex);
+            }
         }
 
         public IQueryable<Bet> GetBetsByBookmaker(int bookmakerId)
         {
-            throw new NotImplementedException();
+            var bets = _context.Bets.Where(b => b.BookmakerId == bookmakerId);
+            return bets;
         }
-
+        
         public IQueryable<Bet> GetBetsForUser(int userId)
         {
-            throw new NotImplementedException();
+            var bets = _context.Bets.Where(b => b.ApplicationUserId == userId);
         }
     }
 }

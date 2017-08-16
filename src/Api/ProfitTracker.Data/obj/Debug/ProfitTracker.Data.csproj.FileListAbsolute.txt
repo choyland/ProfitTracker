@@ -1,0 +1,14 @@
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\obj\Debug\ProfitTracker.Data.csprojResolveAssemblyReference.cache
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\bin\Debug\ProfitTracker.Data.dll.config
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\bin\Debug\ProfitTracker.Data.dll
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\bin\Debug\ProfitTracker.Data.pdb
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\bin\Debug\ProfitTracker.Model.dll
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\bin\Debug\EntityFramework.dll
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\bin\Debug\ProfitTracker.Model.pdb
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\bin\Debug\EntityFramework.xml
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\obj\Debug\ProfitTracker.Data.dll
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.Data\obj\Debug\ProfitTracker.Data.pdb

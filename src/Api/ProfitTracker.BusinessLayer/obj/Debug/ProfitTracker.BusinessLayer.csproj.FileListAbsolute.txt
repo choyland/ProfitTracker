@@ -1,0 +1,15 @@
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\obj\Debug\ProfitTracker.BusinessLayer.csprojResolveAssemblyReference.cache
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\bin\Debug\ProfitTracker.BusinessLayer.dll
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\bin\Debug\ProfitTracker.BusinessLayer.pdb
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\bin\Debug\AutoMapper.dll
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\bin\Debug\ProfitTracker.Model.dll
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\bin\Debug\EntityFramework.dll
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\bin\Debug\ProfitTracker.Model.pdb
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\bin\Debug\AutoMapper.xml
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\bin\Debug\EntityFramework.xml
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\obj\Debug\ProfitTracker.BusinessLayer.dll
+E:\Projects\ProfitTracker\src\Api\ProfitTracker.BusinessLayer\obj\Debug\ProfitTracker.BusinessLayer.pdb

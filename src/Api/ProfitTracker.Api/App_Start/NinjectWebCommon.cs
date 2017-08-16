@@ -63,7 +63,6 @@ namespace ProfitTracker.Api.App_Start
         private static void RegisterServices(IKernel kernel)
         {
             kernel.Bind<ProfitTrackerDbContext>().ToSelf().InRequestScope();
-            kernel.Bind<IRepository>().To<EfRepository<ProfitTrackerDbContext>>().InRequestScope();
         }        
     }
 }
